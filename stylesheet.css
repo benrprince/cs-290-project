@@ -1,7 +1,113 @@
+/* Global Settings */
+
 body {
-    background-color: #593D3B;
+    background-color: #DEDADF;
 }
 
-div {
-    background-color: #593D3B;
+#nav-bar {
+    background-color: #020A24;
+    height: 40px;
+    position: fixed;
+    width: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Home settings */
+
+.title {
+    background-color: #020A24;
+    border: none;
+    padding: 0;
+}
+
+#title {
+    background-color: #020A24;
+    position: relative;
+    top: 25%;
+    left: 0%;
+}
+#home {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+#page1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+#page2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+#page3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+}
+div>h4 {
+    display: inline;
+}
+
+#picture-carousel {
+    position: absolute;
+    top: 100%;
+    max-width: 10%;
+    max-height: 20%;
+
+    margin: auto;
+}
+.caro-photos {
+    display: none;
+}
+
+/* About settings */
+
+#scroll-box-background {
+    background-color:#3D8C6A;
+    height: 800px;
+    position: relative;
+    top: 100px;
+    width: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#box-title {
+    font-size: xx-large;
+    color: #1F2B3F;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    left: 33%;
+}
+
+#scroll-box {
+    background-color: white;
+    border: 2px solid;
+    font-size: large;
+    overflow: auto;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 150px;
+    margin: auto;
 }
