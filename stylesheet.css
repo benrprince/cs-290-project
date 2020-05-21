@@ -19,6 +19,18 @@ h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.page-title {
+    font-size: xx-large;
+    color: #1F2B3F;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -230px;
+
+}
+
 /* Home settings */
 
 .title {
@@ -90,24 +102,70 @@ div>h4 {
     top: 0;
 }
 
-#box-title {
-    font-size: xx-large;
-    color: #1F2B3F;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 100px;
-    margin: auto;
-    left: 33%;
-}
-
 #scroll-box {
     background-color: white;
     border: 2px solid;
     font-size: large;
     overflow: auto;
-    height: 500px;
+    height: 400px;
     width: 500px;
     position: relative;
-    top: 150px;
+    top: 100px;
     margin: auto;
 }
+
+/* Cities settings */
+
+#block {
+    background-color: #3D8C6A;
+    position: absolute;
+    height: 1050px;
+    width: 150px;
+    top: 10%;
+    border-radius: 30px;
+}
+
+#city-list {
+    background-color: #78828E;
+    position: relative;
+    top: 180px;
+}
+
+#list {
+    display: table;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    top: 500px;
+}
+
+li {
+    align-items: center;
+    max-width: 25%;
+    max-height: 20%;
+    display: inline-block;
+    padding-top: 45px;
+    padding-left: 20%;
+}
+
+.city-pic {
+    max-width:100%;
+    height: auto;
+    border: solid 2px #1F2B3F;
+    border-radius: 100%;
+}
+
+.p-credit {
+    font-size: xx-small;
+}
+
+.city {
+    font-size: xx-large;
+}
+
+
+
+
+
