@@ -26,3 +26,65 @@ function menuButtonSelected(button) {
 }
 
 // photo carousel
+
+selectedImage = document.getElementsByClassName('caro-photos')[0]
+selectedImage.style.display = 'block'
+
+document.getElementById('previous').addEventListener('click', function() {
+    prevButton()})
+document.getElementById('next').addEventListener('click', function() {
+    nextButton()})
+
+function prevButton() {
+    if (selectedImage == document.getElementsByClassName('caro-photos')[0]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[3]
+        selectedImage.style.display = 'block'
+        return
+    }
+    if (selectedImage == document.getElementsByClassName('caro-photos')[1]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[0]
+        selectedImage.style.display = 'block'
+        return
+    }
+    if (selectedImage == document.getElementsByClassName('caro-photos')[2]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[1]
+        selectedImage.style.display = 'block'
+        return
+    }
+    if (selectedImage == document.getElementsByClassName('caro-photos')[3]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[2]
+        selectedImage.style.display = 'block'
+        return
+    }
+}
+
+function nextButton() {
+    if (selectedImage == document.getElementsByClassName('caro-photos')[0]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[1]
+        selectedImage.style.display = 'block'
+        return
+    }
+    if (selectedImage == document.getElementsByClassName('caro-photos')[1]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[2]
+        selectedImage.style.display = 'block'
+        return
+    }
+    if (selectedImage == document.getElementsByClassName('caro-photos')[2]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[3]
+        selectedImage.style.display = 'block'
+        return
+    }
+    if (selectedImage == document.getElementsByClassName('caro-photos')[3]) {
+        selectedImage.style.display = 'none'
+        selectedImage = document.getElementsByClassName('caro-photos')[0]
+        selectedImage.style.display = 'block'
+        return
+    }
+}

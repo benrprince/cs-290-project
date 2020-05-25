@@ -6,6 +6,73 @@
   <link rel='stylesheet' href='stylesheet.css' type='text/css'>
  </head>
  <body>
+    <div id='form-div'>
+        <div id='sign-up-title'>
+            Submit a form and we will connect with you
+        </div>
+        <form action='http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php'
+            method='GET'>
+            <fieldset>
+                <legend>Group Sign Up</legend>
+                <div class='form-fields'> 
+                    <label>Full Name:
+                        <input type='text' name='name_input'>
+                    </label>
+                </div>
+                <div class='form-fields'>
+                    <label>Email:
+                        <input type='text' name='email_input'>
+                    </label>
+                </div>
+                <div class='form-fields'>
+                    <label>Phone Number:
+                        <input type='text' name='phone-input'>
+                    </label>
+                </div>
+                <div class='form-fields'>
+                    <label>Where do you live:
+                        <input type='text' name='city-input'>
+                    </label>
+                </div>
+                <br>
+                <div class='form-fields'>
+                    <p>What are you interested in?</p>
+                        <input type='checkbox' name='Endurance'>
+                        <label>Endurance</label>
+                        <br>
+                        <input type='checkbox' name='Marathon'>
+                        <label>Marathon Training</label>
+                        <br>
+                        <input type='checkbox' name='Trail'>
+                        <label>Trail Running</label>
+                        <br>
+                        <input type='checkbox' name='Fitness'>
+                        <label>Overall Fitness</label>
+                        <br>
+                        <input type='checkbox' name='people'>
+                        <label>I just want to hang out with people!</label>
+                </div>
+                <br>
+                <div>
+                    <p>Do you want to join or start a group?</p>
+                        <input type='radio' name='join-start' value='join'>
+                        <label>Join a group</label>
+                        <br>
+                        <input type='radio' name='join-start' value='start'>
+                        <label>Start a group</label>
+                </div>
+                <div class='form-fields'>
+                    <label>Tell us about yourself!</label>
+                    <br>
+                    <textarea name='about-you'></textarea>
+                </div>
+                <label>
+                    <input type='submit' value='Submit'>
+                </label>
+            </fieldset>
+        </form>
+    </div>
+
     <div id='nav-bar'>
         <h4 id='title' class='title'>The Running Group</h4>
         <button id='home' class='title'>Home</button>

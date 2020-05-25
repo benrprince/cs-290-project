@@ -7,25 +7,46 @@
   <link rel='stylesheet' href='stylesheet.css' type='text/css'>
  </head>
  <body>
-    <div id='picture-carousel'>
-        <div class='caro-photos'>
-            <div class='credit'></div>
-            <img src='pictures/img1.jpg'>
+    <div id='logo-div'>
+        <img id='logo' src='pictures/logo.png'>
+    </div>
+    <div id='caro-block'>
+        <div id='picture-carousel'>
+            <div class='caro-photos' id='img1'  style='display: none;'>
+                <img src='pictures/img1.jpg'>
+                <div class='credit'>Photo Credit: unplash.com Martins Zemlickis</div>
+            </div>
+            <div class='caro-photos' id='img2' style='display: none;'>
+                <img src='pictures/img2.jpg'>
+                <div class='credit'>Photo Credit: unplash.com Steven Lelham</div>
+            </div>
+            <div class='caro-photos' id='img3' style='display: none;'>
+                <img src='pictures/img3.jpg'>
+                <div class='credit'>Photo Credit: unplash.com</div>
+            </div>
+            <div class='caro-photos' id='img4' style='display: none;'>
+                <img src='pictures/img4.jpg'>
+                <div class='credit'>Photo Credit: unplash.com Miguel A. Amutio</div>
+            </div>
+            <div id='left-div'>
+                <input type='image' src='pictures/leftArrow.png' id='previous'></input>
+            </div>
+            <div id='right-div'>
+                <input type='image' src='pictures/rightArrow.png' id='next'></input>
+            </div>
         </div>
-        <div class='caro-photos'>
-            <div class='credit'></div>
-            <img src='pictures/img2.jpg'>
+    </div>
+    <br>
+    <div class='info-bar'>
+        <div id='info1'>
+            "I started a group in LA and not only
+            have a healthier lifestyle, but I made
+            some life long friends!"
+                    - LA Group Leader
         </div>
-        <div class='caro-photos'>
-            <div class='credit'></div>
-            <img src='pictures/img3.jpg'>
+        <div id='info1-img'>
+            <img src='pictures/img5.jpg'>
         </div>
-        <div class='caro-photos'>
-            <div class='credit'></div>
-            <img src='pictures/img4.jpg'>
-        </div>
-        <button>Previous</button>
-        <button>Next</button>
     </div>
     <div id='nav-bar'>
         <h4 id='title' class='title'>The Running Group </h4>
@@ -34,7 +55,6 @@
         <button id='page2' class='title'>Cities</button>
         <button id='page3' class='title'>Sign Up</button>
     </div>
-
     <script src='home_script.js'></script>
  </body>
 </html>

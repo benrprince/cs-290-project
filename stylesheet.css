@@ -77,40 +77,138 @@ div>h4 {
     display: inline;
 }
 
-#picture-carousel {
+#logo-div {
     position: absolute;
-    top: 100%;
-    max-width: 10%;
-    max-height: 20%;
+    top: 50px;
+    left: 40%;
+}
 
+
+#caro-block {
+    position: relative;
+    background-color: #78828E;
+    height: 800px;
+    top: 375px;
+    width: auto;
+    left: 0;
+    right: 0;
+}
+
+#picture-carousel {
+    position: relative;
+    top: 100px;
+    max-width: 1000px;
+    max-height: 750px;
     margin: auto;
 }
+
+.caro-photos>img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
 .caro-photos {
-    display: none;
+    width: 1000px;
+    height: 750px;
+}
+
+#left-div {
+    position: absolute;
+    left: -10%;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+#previous {
+    width: 100%;
+    height: auto;
+}
+
+#right-div {
+    position: absolute;
+    bottom: 50%;
+    right: -10%;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+#next {
+    width: 100%;
+    height: auto;
+}
+
+.caro-photos>.credit {
+    position: absolute;
+    color: white;
+}
+
+.info-bar {
+    background-color: #3D8C6A;
+    height: 300px;
+    position: relative;
+    width: auto;
+    left: 0;
+    right: 0;
+    top: 500px;
+}
+
+#info1 {
+    font-size: xx-large;
+    color: #DEDADF;
+    position: relative;
+    left: 1%;
+    top: 40px;
+}
+
+#info1-img {
+    position: relative;
+    bottom: 60px;
+    width: 250px;
+    height: 500px;
+    left: 70%;
+}
+
+#info1-img>img {
+    width: 100%;
+    height: auto;
 }
 
 /* About settings */
 
 #scroll-box-background {
-    background-color:#3D8C6A;
+    position: absolute;
+    background-color: #3D8C6A;
     height: 800px;
-    position: relative;
-    top: 100px;
+    top: 300px;
     width: auto;
     left: 0;
     right: 0;
     top: 0;
 }
 
+.box-title {
+    font-size: xx-large;
+    color: #1F2B3F;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -230px;
+}
+
 #scroll-box {
     background-color: white;
     border: 2px solid;
-    font-size: large;
+    font-size: x-large;
     overflow: auto;
     height: 400px;
     width: 500px;
     position: relative;
-    top: 100px;
+    top: 150px;
     margin: auto;
 }
 
@@ -119,7 +217,7 @@ div>h4 {
 #block {
     background-color: #3D8C6A;
     position: absolute;
-    height: 1050px;
+    height: 100%;
     width: 150px;
     top: 10%;
     border-radius: 30px;
@@ -166,6 +264,38 @@ li {
 }
 
 
+/* Sign Up settings */
+
+#sign-up-title {
+    font-size: xx-large;
+    color: #1F2B3F;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
+
+#form-div {
+    position: absolute;
+    background-color: #3D8C6A;
+    height: 850px;
+    top: 300px;
+    width: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
 
 
+form {
+    background-color: #DEDADF;
+    position: relative;
+    top: 100px;
+    left: 30%;
+    height: 600px;
+    width: 40%;
+}
 
+.form-fields {
+    padding-top: 20px;
+
+}
